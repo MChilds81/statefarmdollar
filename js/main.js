@@ -5,10 +5,10 @@ $(document).ready(function() {
 		var position = p.position();
 		// $( "body" ).html( "left: " + position.left + ", top: " + position.top );
 		if (position.top == "150") {
-			$(".dollar").animate({top: "100px"});
+			$(".dollar").animate({top: "100px"},100);
 		} 
 		else {
-			$(".dollar").animate({top: "150px"});
+			$(".dollar").animate({top: "150px"},100);
 		}
 		var comment = $(".comment");
 		$(comment).show();
